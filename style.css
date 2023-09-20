@@ -1,0 +1,315 @@
+
+h1 {
+    color:rgb(6, 117, 139);
+    font-size: 70px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  
+}
+.square {
+    width: 100%;
+    text-align:center;
+    color:white;
+}
+.Achtergrond { 
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(img/background.JPEG);
+   background-size:contain;
+   background-position:center;
+}
+.nav{
+    width:85%;
+    margin:auto;
+    padding:35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navlista {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+li a {
+    text-decoration:none;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+   transition: all .55s ease;
+}
+li a:hover{
+    border-bottom: 2px solid rgb(6, 117, 139);
+}
+ul {
+    list-style: none;
+    display:inline-block;
+    margin: 0 20px;
+}
+h2 { color:white;
+    font-size: 70px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  }
+.global {
+    background-color:rgb(43, 43, 43);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 400; 
+}
+.lijst {
+    display:flex;
+}
+.namelist{
+    display:inline-flex;
+}
+.Vietnam{ 
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:left;
+}
+.imagevn{
+    width:500px;
+    position:relative;
+
+}
+img{
+    width:100%;
+    display: block;
+    margin:auto;
+}
+.content{
+width:100%;
+height:100%;
+top:0;
+left:0;
+position: absolute;
+background:rgba(0,0,0,0.6);
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+opacity:0;
+transition: 0.6s;
+}
+.content:hover{
+    opacity:1;
+}
+.content p{
+    font-size:30px;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.Thailand{ 
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:left;
+    }
+    .imagetl{
+        width:500px;
+        position:relative;
+    
+    }
+    .content1{
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+        position: absolute;
+        background:rgba(0,0,0,0.6);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        opacity:0;
+        transition: 0.6s;
+        }
+        .content1:hover{
+            opacity:1;
+        }
+        .content1 p{
+            font-size:30px;
+            color: white;
+            margin-bottom: 15px;
+        
+        }
+ .Dubai{ 
+        width:100%;
+        height:100vh;
+        display:flex;
+        justify-content:left;
+        }
+            .imagedubai{
+                width:500px;
+                position:relative;
+            
+            }
+            .content2{
+                width:100%;
+                height:100%;
+                top:0;
+                left:0;
+                position: absolute;
+                background:rgba(0,0,0,0.6);
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                flex-direction:column;
+                opacity:0;
+                transition: 0.6s;
+                }
+                .content2:hover{
+                    opacity:1;
+                }
+                .content2 p{
+                    font-size:30px;
+                    color: white;
+                    margin-bottom: 15px;
+                
+                }
+                
+.Swiss{ 
+             width:100%;
+             height:100vh;
+             display:flex;
+             justify-content:left;
+             }
+                        .imageswiss{
+                            width:500px;
+                            position:relative;
+                        
+                        }
+                        .content3{
+                            width:100%;
+                            height:100%;
+                            top:0;
+                            left:0;
+                            position: absolute;
+                            background:rgba(0,0,0,0.6);
+                            display:flex;
+                            justify-content:center;
+                            align-items:center;
+                            flex-direction:column;
+                            opacity:0;
+                            transition: 0.6s;
+                            }
+                            .content3:hover{
+                                opacity:1;
+                            }
+                            .content3 p{
+                                font-size:30px;
+                                color: white;
+                                margin-bottom: 15px;
+                            
+                            }
+.Italy{ 
+           width:100%;
+           height:100vh;
+            display:flex;
+             justify-content:left;
+            }
+                        .imageitaly{ 
+                            width:500px;
+                            position:relative;
+                        
+                        }
+                        .content4{
+                            width:100%;
+                            height:100%;
+                            top:0;
+                            left:0;
+                            position: absolute;
+                            background:rgba(0,0,0,0.6);
+                            display:flex;
+                            justify-content:center;
+                            align-items:center;
+                            flex-direction:column;
+                            opacity:0;
+                            transition: 0.6s;
+                            }
+                            .content4:hover{
+                                opacity:1;
+                            }
+                            .content4 p{
+                                font-size:30px;
+                                color: white;
+                                margin-bottom: 15px;
+                            
+                            }
+                            
+.FR{ 
+          width:100%;
+         height:100vh;
+         display:flex;
+         justify-content:left;
+         }
+                                 .imagefr{
+                                        width:500px;
+                                        position:relative;
+                                    
+                                    }
+                              .content5{
+                                        width:100%;
+                                        height:100%;
+                                        top:0;
+                                        left:0;
+                                        position: absolute;
+                                        background:rgba(0,0,0,0.6);
+                                        display:flex;
+                                        justify-content:center;
+                                        align-items:center;
+                                        flex-direction:column;
+                                        opacity:0;
+                                        transition: 0.6s;
+                                        }
+                                 .content5:hover{
+                                            opacity:1;
+                                        }
+                                  .content5 p{
+                                           font-size:30px;
+                                          color: white;
+                                        margin-bottom: 15px;
+                      
+                                        }
+         .Nyc{ 
+                width:100%;
+                height:100vh;
+                display:flex;
+                justify-content:left;
+                                        }
+                                            .imagenyc{
+                                                width:500px;
+                                                position:relative;
+                                            
+                                            }
+                                            .content6{
+                                                width:100%;
+                                                height:100%;
+                                                top:0;
+                                                left:0;
+                                                position: absolute;
+                                                background:rgba(0,0,0,0.6);
+                                                display:flex;
+                                                justify-content:center;
+                                                align-items:center;
+                                                flex-direction:column;
+                                                opacity:0;
+                                                transition: 0.6s;
+                                                }
+                                                .content6:hover{
+                                                    opacity:1;
+                                                }
+                                                .content6 p{
+                                                    font-size:30px;
+                                                    color: white;
+                                                    margin-bottom: 15px;
+                                                
+                                                }                                       
+                                        
