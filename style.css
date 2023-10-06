@@ -1,315 +1,194 @@
-
 h1 {
-    color:rgb(6, 117, 139);
+    color: rgb(6, 117, 139);
     font-size: 70px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  
+    font-family: "Open sans", sans-serif;
+    text-align: center;
 }
+
+
+
 .square {
     width: 100%;
-    text-align:center;
-    color:white;
+    text-align: center;
+    color: white;
 }
-.Achtergrond { 
+.square p {
+    font-size: 20px;
+}
+.button {
+    color: #FFF;
+    background-color: transparent;
+    /* Blue */
+    font-weight: bold;
+    padding: 20px;
+    border: 3px solid rgb(6, 117, 139);
+    /* Dark gray */
+    border-radius: 5px;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.button:hover {
+    background-color: rgb(6, 117, 139);
+}
+
+.achtergrond {
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(img/background.JPEG);
-   background-size:contain;
-   background-position:center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/background.JPEG);
+    background-size: contain;
+    background-position: center;
 }
-.nav{
-    width:85%;
-    margin:auto;
-    padding:35px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
+.achtergrond2 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/background2.png);
+    background-size: contain;
+    background-position: center;
 }
-.navlista {
+
+ul {
     width: 85%;
     margin: auto;
     padding: 35px 0;
-    display:flex;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content:space-between;
+    flex-direction: row;
+
 }
 
 li a {
-    text-decoration:none;
+    text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
-   transition: all .55s ease;
+    transition: all .55s ease;
+    list-style: none;
 }
-li a:hover{
+
+li a:hover {
     border-bottom: 2px solid rgb(6, 117, 139);
 }
-ul {
+
+li {
     list-style: none;
-    display:inline-block;
+    display: flex;
     margin: 0 20px;
 }
-h2 { color:white;
-    font-size: 70px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  }
+
 .global {
-    background-color:rgb(43, 43, 43);
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(43, 43, 43);
+    font-family: "Open sans", sans-serif;
     color: white;
     font-size: 20px;
     line-height: 1.5em;
-    font-weight: 400; 
+    font-weight: 400;
 }
-.lijst {
-    display:flex;
-}
-.namelist{
-    display:inline-flex;
-}
-.Vietnam{ 
-    width:100%;
-    height:100vh;
-    display:flex;
-    justify-content:left;
-}
-.imagevn{
-    width:500px;
-    position:relative;
 
-}
-img{
-    width:100%;
-    display: block;
-    margin:auto;
-}
-.content{
-width:100%;
-height:100%;
-top:0;
-left:0;
-position: absolute;
-background:rgba(0,0,0,0.6);
-display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
-opacity:0;
-transition: 0.6s;
-}
-.content:hover{
-    opacity:1;
-}
-.content p{
-    font-size:30px;
+
+.title {
+    width: 100%;
+    text-align:left;
     color: white;
-    margin-bottom: 15px;
 
 }
 
-.Thailand{ 
-    width:100%;
-    height:100vh;
+.title p {
+    text-align: left;
+    font-size: 20px;
+
+}
+.bestemmingen {
+    display: flex;
+    justify-content: left;
+    flex-direction:column;
+    color: white; 
+}
+
+.content {
     display:flex;
-    justify-content:left;
-    }
-    .imagetl{
-        width:500px;
-        position:relative;
+    font-size: 20px;
+    color: white;
+    margin: 5vw;
+    justify-content: center;
+    padding-left:10vw;
+    padding-right:10vw;
+    text-align: center;
+
+}
+
+img {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.page3 {
+    background-color: black;
+}
+
+.imagetop2landen {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
     
-    }
-    .content1{
-        width:100%;
-        height:100%;
-        top:0;
-        left:0;
-        position: absolute;
-        background:rgba(0,0,0,0.6);
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        flex-direction:column;
-        opacity:0;
-        transition: 0.6s;
-        }
-        .content1:hover{
-            opacity:1;
-        }
-        .content1 p{
-            font-size:30px;
-            color: white;
-            margin-bottom: 15px;
-        
-        }
- .Dubai{ 
-        width:100%;
-        height:100vh;
-        display:flex;
-        justify-content:left;
-        }
-            .imagedubai{
-                width:500px;
-                position:relative;
-            
-            }
-            .content2{
-                width:100%;
-                height:100%;
-                top:0;
-                left:0;
-                position: absolute;
-                background:rgba(0,0,0,0.6);
-                display:flex;
-                justify-content:center;
-                align-items:center;
-                flex-direction:column;
-                opacity:0;
-                transition: 0.6s;
-                }
-                .content2:hover{
-                    opacity:1;
-                }
-                .content2 p{
-                    font-size:30px;
-                    color: white;
-                    margin-bottom: 15px;
-                
-                }
-                
-.Swiss{ 
-             width:100%;
-             height:100vh;
-             display:flex;
-             justify-content:left;
-             }
-                        .imageswiss{
-                            width:500px;
-                            position:relative;
-                        
-                        }
-                        .content3{
-                            width:100%;
-                            height:100%;
-                            top:0;
-                            left:0;
-                            position: absolute;
-                            background:rgba(0,0,0,0.6);
-                            display:flex;
-                            justify-content:center;
-                            align-items:center;
-                            flex-direction:column;
-                            opacity:0;
-                            transition: 0.6s;
-                            }
-                            .content3:hover{
-                                opacity:1;
-                            }
-                            .content3 p{
-                                font-size:30px;
-                                color: white;
-                                margin-bottom: 15px;
-                            
-                            }
-.Italy{ 
-           width:100%;
-           height:100vh;
-            display:flex;
-             justify-content:left;
-            }
-                        .imageitaly{ 
-                            width:500px;
-                            position:relative;
-                        
-                        }
-                        .content4{
-                            width:100%;
-                            height:100%;
-                            top:0;
-                            left:0;
-                            position: absolute;
-                            background:rgba(0,0,0,0.6);
-                            display:flex;
-                            justify-content:center;
-                            align-items:center;
-                            flex-direction:column;
-                            opacity:0;
-                            transition: 0.6s;
-                            }
-                            .content4:hover{
-                                opacity:1;
-                            }
-                            .content4 p{
-                                font-size:30px;
-                                color: white;
-                                margin-bottom: 15px;
-                            
-                            }
-                            
-.FR{ 
-          width:100%;
-         height:100vh;
-         display:flex;
-         justify-content:left;
-         }
-                                 .imagefr{
-                                        width:500px;
-                                        position:relative;
-                                    
-                                    }
-                              .content5{
-                                        width:100%;
-                                        height:100%;
-                                        top:0;
-                                        left:0;
-                                        position: absolute;
-                                        background:rgba(0,0,0,0.6);
-                                        display:flex;
-                                        justify-content:center;
-                                        align-items:center;
-                                        flex-direction:column;
-                                        opacity:0;
-                                        transition: 0.6s;
-                                        }
-                                 .content5:hover{
-                                            opacity:1;
-                                        }
-                                  .content5 p{
-                                           font-size:30px;
-                                          color: white;
-                                        margin-bottom: 15px;
-                      
-                                        }
-         .Nyc{ 
-                width:100%;
-                height:100vh;
-                display:flex;
-                justify-content:left;
-                                        }
-                                            .imagenyc{
-                                                width:500px;
-                                                position:relative;
-                                            
-                                            }
-                                            .content6{
-                                                width:100%;
-                                                height:100%;
-                                                top:0;
-                                                left:0;
-                                                position: absolute;
-                                                background:rgba(0,0,0,0.6);
-                                                display:flex;
-                                                justify-content:center;
-                                                align-items:center;
-                                                flex-direction:column;
-                                                opacity:0;
-                                                transition: 0.6s;
-                                                }
-                                                .content6:hover{
-                                                    opacity:1;
-                                                }
-                                                .content6 p{
-                                                    font-size:30px;
-                                                    color: white;
-                                                    margin-bottom: 15px;
-                                                
-                                                }                                       
-                                        
+}
+.foto1, .foto2 {
+    width: 500%;
+    height: 300%;
+
+}
+.imagetop2landen h2 {
+    color:white;
+
+}
+article > h2,p {
+    color: #FFF;
+    margin:2em; 
+}
+
+body {
+    background-color: black;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    color:black;
+    flex-wrap:wrap;
+    
+}
+.container img{
+    width: 800px;
+    height: 600px;
+    justify-content:left; 
+}
+.card {
+    background-color:rgb(6, 117, 139) ;
+    width: 98em;
+    height: 10em;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1em;
+
+    
+}
+.card:hover{
+    background-color:grey;
+    transition: 0.6s;
+    color: white;
+    transform: scale(0.99);
+}
+footer{
+    color:white;
+}
+.footer{
+    background-color: grey;
+    margin-top:20em;
+    text-align: center;
+    padding:2em;
+
+}
