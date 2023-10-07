@@ -166,11 +166,11 @@ body {
     flex-direction: row;
     color:black;
     flex-wrap:wrap;
+    margin-top:5em;
 }
 
-.container img{
+.container img {
     width: 800px;
-    height: 600px;
     justify-content:left; 
 }
 
@@ -182,19 +182,19 @@ body {
     font-size: 20px;
 }
 
-.card:hover{
+.card:hover {
     background-color:grey;
     transition: 0.6s;
     color: white;
     transform: scale(0.99);
 }
 
-
-footer{
+footer {
     color:white;
     justify-content: center;
 }
-.footer{
+
+.footer {
     background-color: grey;
     margin-top:20em;
     text-align: center;
